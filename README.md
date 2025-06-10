@@ -8,7 +8,7 @@
 
 <!-- Hero Section with Enhanced Typography -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=800&height=120&lines=🚀+Flutter+Developer+%26+UI%2FUX+Enthusiast;✨+Crafting+Beautiful+Mobile+Experiences;🌟+Passionate+About+Clean+Code+%26+Innovation" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=800&height=120&lines=🚀+Full+Stack+Developer+%26+Systems+Programmer;✨+Next.js+%7C+Rust+%7C+Flutter+Enthusiast;🌟+Crafting+Modern+Web+%26+Mobile+Solutions" alt="Typing SVG" />
 </div>
 
 <!-- Stylized Profile Stats Cards -->
@@ -28,23 +28,24 @@
 <td width="60%" align="left">
 
 ```yaml
-name: "Flutter Developer"
+name: "Full Stack Developer"
 located_in: "Tokyo, Japan 🗼"
-current_focus: "Mobile App Development"
+current_focus: "Web Development & Systems Programming"
 education: "Computer Science"
 
 tech_interests:
+  - Web Development 🌐
+  - Systems Programming ⚙️
   - Mobile Development 📱
-  - UI/UX Design 🎨
-  - Clean Architecture 🏗️
-  - State Management 🔄
+  - Performance Optimization 🚀
 
 currently_learning:
-  - Advanced Flutter Animations
+  - Advanced Rust Patterns
+  - Next.js 14 Features
+  - WebAssembly Integration
   - Microservices Architecture
-  - Cloud Native Development
 
-fun_fact: "I debug with print() and I'm not ashamed! 😄"
+fun_fact: "I love the performance of Rust and the DX of Next.js! 🦀⚡"
 ```
 
 </td>
@@ -53,8 +54,10 @@ fun_fact: "I debug with print() and I'm not ashamed! 😄"
 <img src="https://github.com/user-attachments/assets/flutter-developer.gif" width="200" alt="Coding GIF">
 
 **🎯 Quick Stats**
-- 💼 2+ years in Flutter
-- 🚀 10+ apps published
+- 💼 3+ years in Web Development
+- 🦀 2+ years with Rust
+- 📱 Flutter experience
+- 🚀 Performance enthusiast
 - ⭐ Open source contributor
 - 🌱 Always learning
 
@@ -68,6 +71,16 @@ fun_fact: "I debug with print() and I'm not ashamed! 😄"
 
 <div align="center">
 
+### 🌐 **Web Development**
+<p>
+  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,vercel" />
+</p>
+
+### ⚙️ **Systems Programming**
+<p>
+  <img src="https://skillicons.dev/icons?i=rust,webassembly,linux,docker,kubernetes" />
+</p>
+
 ### 📱 **Mobile Development**
 <p>
   <img src="https://skillicons.dev/icons?i=flutter,dart,androidstudio,xcode" />
@@ -75,17 +88,17 @@ fun_fact: "I debug with print() and I'm not ashamed! 😄"
 
 ### 🔧 **Backend & Database**
 <p>
-  <img src="https://skillicons.dev/icons?i=firebase,supabase,postgresql,sqlite,nodejs" />
+  <img src="https://skillicons.dev/icons?i=nodejs,postgresql,redis,mongodb,supabase,firebase" />
 </p>
 
 ### 🎨 **Design & Tools**
 <p>
-  <img src="https://skillicons.dev/icons?i=figma,photoshop,vscode,git,github,postman" />
+  <img src="https://skillicons.dev/icons?i=figma,vscode,git,github,postman,graphql" />
 </p>
 
-### 💻 **Languages & Frameworks**
+### 💻 **Languages & More**
 <p>
-  <img src="https://skillicons.dev/icons?i=dart,js,ts,python,ruby,rails,html,css" />
+  <img src="https://skillicons.dev/icons?i=rust,ts,js,dart,python,html,css,wasm" />
 </p>
 
 </div>
@@ -116,30 +129,30 @@ fun_fact: "I debug with print() and I'm not ashamed! 😄"
 <tr>
 <td width="50%">
 
-### 📱 [Project Name 1](https://github.com/user/project1)
-**Flutter E-commerce App**
-- 🛒 Full shopping experience
-- 💳 Payment integration
+### 🌐 [Project Name 1](https://github.com/user/project1)
+**Next.js Full-Stack App**
+- ⚡ Server-side rendering
 - 🔐 Authentication system
-- 📊 Analytics dashboard
+- 📊 Real-time analytics
+- 🎨 Modern UI/UX
 
-![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/-Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
-![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind](https://img.shields.io/badge/-Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
 
 </td>
 <td width="50%">
 
-### 🎵 [Project Name 2](https://github.com/user/project2)
-**Music Streaming App**
-- 🎼 Audio streaming
-- 🎨 Beautiful UI/UX
-- 📱 Cross-platform
-- ☁️ Cloud integration
+### 🦀 [Project Name 2](https://github.com/user/project2)
+**Rust CLI Tool**
+- ⚡ High performance
+- 🔧 System integration
+- 📦 Cross-platform
+- 🚀 Zero-cost abstractions
 
-![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![Supabase](https://img.shields.io/badge/-Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![WebAssembly](https://img.shields.io/badge/-WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 </td>
 </tr>
@@ -194,7 +207,7 @@ If you like my projects, consider buying me a coffee! ☕
   
   **Made with ❤️ and lots of ☕ by [user](https://github.com/user)**
   
-  *"Flutter isn't just a framework, it's a way of thinking! 🦋✨"*
+  *"Rust for performance, Next.js for experience, Flutter for everywhere! 🦀⚡🦋"*
   
   <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
 </div>
