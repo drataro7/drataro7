@@ -41,7 +41,7 @@ tech_interests:
 
 currently_learning:
   - Advanced Rust Patterns
-  - Next.js 14 Features
+  - Next.js 16 Features
   - WebAssembly Integration
   - Microservices Architecture
 
