@@ -226,30 +226,16 @@ Driven by the pursuit of performance.
 
 <br>
 
-<!-- ━━━━━━━━━━━━━━━━ 績 ─ GitHub Analytics ━━━━━━━━━━━━━━━━ -->
+<!-- ━━━━━━━━━━━━━━━━ 志 ─ Vision Map ━━━━━━━━━━━━━━━━ -->
 
 <div align="center">
-  <img src="analytics-header.svg" width="100%" alt="績 ─ GitHub Analytics" />
+  <img src="vision-header.svg" width="100%" alt="志 ─ Vision Map" />
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=drataro7&show_icons=true&hide_border=true&bg_color=0a0a0f&title_color=c0392b&icon_color=d4a574&text_color=888888&border_radius=8&ring_color=c0392b" height="160" alt="GitHub Stats" />
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=drataro7&layout=compact&hide_border=true&bg_color=0a0a0f&title_color=c0392b&text_color=888888&border_radius=8" height="160" alt="Top Languages" />
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=drataro7&hide_border=true&border_radius=8&background=0a0a0f&ring=c0392b&fire=d4a574&currStreakLabel=c0392b&sideLabels=888888&currStreakNum=d4a574&dates=555555" alt="GitHub Streak" />
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=drataro7&custom_title=Contribution%20Graph&bg_color=0a0a0f&color=888888&line=c0392b&point=d4a574&area=true&hide_border=true&radius=8&area_color=1a1a2e" width="95%" alt="Activity Graph" />
+  <img src="vision.svg" width="100%" alt="志 ─ Vision Map" />
 </div>
 
 <br>
