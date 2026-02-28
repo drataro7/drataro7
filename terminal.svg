@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 620" width="480" height="620">
+  <defs>
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0c0c14"/>
+      <stop offset="100%" style="stop-color:#0a0a10"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16162a"/>
+    </linearGradient>
+    <linearGradient id="acGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8b2252"/>
+      <stop offset="50%" style="stop-color:#c0392b"/>
+      <stop offset="100%" style="stop-color:#d4a574"/>
+    </linearGradient>
+    <pattern id="sWave" x="0" y="0" width="36" height="18" patternUnits="userSpaceOnUse">
+      <path d="M0 18 Q9 9 18 18 Q27 9 36 18" fill="none" stroke="#1a1a2e" stroke-width="0.4" opacity="0.35"/>
+    </pattern>
+    <filter id="promptGlow">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- OUTER FRAME -->
+  <rect x="1" y="1" width="478" height="618" rx="8" fill="none" stroke="#1e1e32" stroke-width="1"/>
+  <g stroke="#c0392b" stroke-width="1.5" fill="none" opacity="0.5">
+    <path d="M4 20 L4 6 L18 6"/>
+    <path d="M476 20 L476 6 L462 6"/>
+    <path d="M4 600 L4 614 L18 614"/>
+    <path d="M476 600 L476 614 L462 614"/>
+  </g>
+
+  <!-- BACKGROUND -->
+  <rect x="2" y="2" width="476" height="616" rx="7" fill="url(#termBg)"/>
+  <rect x="2" y="2" width="476" height="616" rx="7" fill="url(#sWave)"/>
+
+  <!-- Torii gate watermark -->
+  <g transform="translate(370, 500)" opacity="0.04" fill="#c0392b">
+    <rect x="-40" y="0" width="80" height="7" rx="2"/>
+    <rect x="-46" y="-7" width="92" height="5" rx="3"/>
+    <rect x="-34" y="7" width="7" height="60"/>
+    <rect x="27" y="7" width="7" height="60"/>
+    <rect x="-30" y="30" width="60" height="4" rx="1"/>
+  </g>
+
+  <!-- Circuit lines -->
+  <g stroke="#c0392b" stroke-width="0.6" fill="none" opacity="0.15">
+    <path d="M420 40 L420 60 L450 60"/>
+    <circle cx="450" cy="60" r="1.5" fill="#c0392b"/>
+    <path d="M440 40 L440 50 L460 50"/>
+    <circle cx="460" cy="50" r="1.5" fill="#c0392b"/>
+    <path d="M430 580 L450 580 L450 560"/>
+    <circle cx="450" cy="560" r="1.5" fill="#c0392b"/>
+  </g>
+
+  <!-- TOP BAR -->
+  <rect x="2" y="2" width="476" height="32" rx="7" fill="url(#barGrad)"/>
+  <rect x="2" y="28" width="476" height="6" fill="url(#barGrad)"/>
+  <circle cx="20" cy="18" r="5" fill="#c0392b" opacity="0.7"/>
+  <circle cx="36" cy="18" r="5" fill="#d4a574" opacity="0.5"/>
+  <circle cx="52" cy="18" r="5" fill="#888" opacity="0.3"/>
+  <text x="240" y="22" font-family="'Courier New', monospace" font-size="11" fill="#666" text-anchor="middle" letter-spacing="2">
+    端末 ─ drataro7@dev
+  </text>
+  <line x1="20" y1="35" x2="460" y2="35" stroke="url(#acGrad)" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- ===== CONTENT ===== -->
+
+  <!-- Section 1: whoami -->
+  <text x="28" y="62" font-family="'Courier New', monospace" font-size="11" fill="#c0392b" filter="url(#promptGlow)" opacity="0.9">❯</text>
+  <text x="44" y="62" font-family="'Courier New', monospace" font-size="12" fill="#d4a574" letter-spacing="0.5">whoami</text>
+  <text x="44" y="84" font-family="'Courier New', monospace" font-size="13" fill="#e0e0e0" letter-spacing="0.5">drataro7</text>
+
+  <line x1="28" y1="96" x2="200" y2="96" stroke="#1e1e32" stroke-width="0.5"/>
+
+  <!-- Section 2: philosophy -->
+  <text x="28" y="116" font-family="'Courier New', monospace" font-size="11" fill="#c0392b" filter="url(#promptGlow)" opacity="0.9">❯</text>
+  <text x="44" y="116" font-family="'Courier New', monospace" font-size="12" fill="#d4a574" letter-spacing="0.5">cat philosophy.txt</text>
+  <text x="44" y="142" font-family="'Noto Sans JP', 'Hiragino Kaku Gothic ProN', sans-serif" font-size="18" fill="#c0392b" letter-spacing="6" opacity="0.9">温故知新</text>
+  <text x="44" y="162" font-family="'Courier New', monospace" font-size="11" fill="#999" letter-spacing="0.5">Learn from the old,</text>
+  <text x="60" y="178" font-family="'Courier New', monospace" font-size="11" fill="#999" letter-spacing="0.5">discover the new.</text>
+
+  <line x1="28" y1="194" x2="200" y2="194" stroke="#1e1e32" stroke-width="0.5"/>
+
+  <!-- Section 3: FOCUS (expanded) -->
+  <text x="28" y="214" font-family="'Courier New', monospace" font-size="11" fill="#c0392b" filter="url(#promptGlow)" opacity="0.9">❯</text>
+  <text x="44" y="214" font-family="'Courier New', monospace" font-size="12" fill="#d4a574" letter-spacing="0.5">echo $FOCUS</text>
+
+  <text x="44" y="238" font-family="'Courier New', monospace" font-size="11" fill="#888" letter-spacing="0.5">◆ Blazing-fast web apps</text>
+  <text x="44" y="256" font-family="'Courier New', monospace" font-size="11" fill="#888" letter-spacing="0.5">◆ Systems-level thinking</text>
+  <text x="44" y="274" font-family="'Courier New', monospace" font-size="11" fill="#888" letter-spacing="0.5">◆ Cross-platform solutions</text>
+  <text x="44" y="292" font-family="'Courier New', monospace" font-size="11" fill="#888" letter-spacing="0.5">◆ AI / Machine Learning</text>
+  <text x="44" y="310" font-family="'Courier New', monospace" font-size="11" fill="#888" letter-spacing="0.5">◆ Spatial Computing</text>
+  <text x="44" y="328" font-family="'Courier New', monospace" font-size="11" fill="#888" letter-spacing="0.5">◆ Web3</text>
+  <text x="44" y="346" font-family="'Courier New', monospace" font-size="11" fill="#888" letter-spacing="0.5">◆ Quantum Computing</text>
+
+  <line x1="28" y1="362" x2="200" y2="362" stroke="#1e1e32" stroke-width="0.5"/>
+
+  <!-- Section 4: uptime --stats (expanded) -->
+  <text x="28" y="382" font-family="'Courier New', monospace" font-size="11" fill="#c0392b" filter="url(#promptGlow)" opacity="0.9">❯</text>
+  <text x="44" y="382" font-family="'Courier New', monospace" font-size="12" fill="#d4a574" letter-spacing="0.5">uptime --stats</text>
+
+  <text x="44" y="406" font-family="'Courier New', monospace" font-size="10.5" fill="#888" letter-spacing="0.3">Web Dev       ▰▰▰▰▰▰▰▰▱▱ 3+ yrs</text>
+  <text x="44" y="424" font-family="'Courier New', monospace" font-size="10.5" fill="#888" letter-spacing="0.3">React         ▰▰▰▰▰▰▰▱▱▱ 3+ yrs</text>
+  <text x="44" y="442" font-family="'Courier New', monospace" font-size="10.5" fill="#888" letter-spacing="0.3">React Native  ▰▰▰▰▰▰▱▱▱▱ 2+ yrs</text>
+  <text x="44" y="460" font-family="'Courier New', monospace" font-size="10.5" fill="#888" letter-spacing="0.3">Rust          ▰▰▰▰▰▱▱▱▱▱ 2+ yrs</text>
+  <text x="44" y="478" font-family="'Courier New', monospace" font-size="10.5" fill="#888" letter-spacing="0.3">Flutter       ▰▰▰▰▱▱▱▱▱▱ 1+ yrs</text>
+  <text x="44" y="496" font-family="'Courier New', monospace" font-size="10.5" fill="#888" letter-spacing="0.3">Curiosity     ▰▰▰▰▰▰▰▰▰▰ ∞</text>
+
+  <line x1="28" y1="512" x2="200" y2="512" stroke="#1e1e32" stroke-width="0.5"/>
+
+  <!-- Section 5: quest.log -->
+  <text x="28" y="532" font-family="'Courier New', monospace" font-size="11" fill="#c0392b" filter="url(#promptGlow)" opacity="0.9">❯</text>
+  <text x="44" y="532" font-family="'Courier New', monospace" font-size="12" fill="#d4a574" letter-spacing="0.5">cat quest.log</text>
+  <text x="44" y="554" font-family="'Courier New', monospace" font-size="10" fill="#666" letter-spacing="0.5">[完] Rust memory mastery</text>
+  <text x="44" y="572" font-family="'Courier New', monospace" font-size="10" fill="#d4a574" letter-spacing="0.5" opacity="0.7">[修] Flutter cross-platform app</text>
+  <text x="44" y="590" font-family="'Courier New', monospace" font-size="10" fill="#d4a574" letter-spacing="0.5" opacity="0.7">[修] Spatial Computing research</text>
+
+  <!-- Blinking cursor -->
+  <rect x="28" y="602" width="7" height="2" fill="#c0392b" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.2;0.8" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>
