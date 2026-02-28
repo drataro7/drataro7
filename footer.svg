@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 80" width="900" height="80">
+  <defs>
+    <linearGradient id="footGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="50%" style="stop-color:#12121f"/>
+      <stop offset="100%" style="stop-color:#0a0a0f"/>
+    </linearGradient>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8b2252"/>
+      <stop offset="50%" style="stop-color:#c0392b"/>
+      <stop offset="100%" style="stop-color:#d4a574"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="80" fill="url(#footGrad)"/>
+  
+  <!-- Layered waves -->
+  <path d="M0 25 Q75 10 150 25 Q225 40 300 25 Q375 10 450 25 Q525 40 600 25 Q675 10 750 25 Q825 40 900 25" 
+        fill="none" stroke="url(#waveGrad)" stroke-width="0.8" opacity="0.3"/>
+  <path d="M0 35 Q75 20 150 35 Q225 50 300 35 Q375 20 450 35 Q525 50 600 35 Q675 20 750 35 Q825 50 900 35" 
+        fill="none" stroke="url(#waveGrad)" stroke-width="0.5" opacity="0.2"/>
+  
+  <text x="450" y="58" font-family="'Noto Sans JP', sans-serif" font-size="10" fill="#666" text-anchor="middle" letter-spacing="3">
+    一期一会 ─ Treasure every encounter
+  </text>
+  <text x="450" y="72" font-family="monospace" font-size="8" fill="#444" text-anchor="middle">
+    ⭐ Thank you for visiting ⭐
+  </text>
+</svg>

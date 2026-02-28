@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="900" height="200">
+  <defs>
+    <!-- Washi paper texture pattern -->
+    <filter id="washi">
+      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="saturate" values="0" in="noise" result="grayNoise"/>
+      <feBlend in="SourceGraphic" in2="grayNoise" mode="multiply"/>
+    </filter>
+    
+    <!-- Gradient for background -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="50%" style="stop-color:#12121f"/>
+      <stop offset="100%" style="stop-color:#0a0a0f"/>
+    </linearGradient>
+    
+    <!-- Accent gradient - deep red to gold -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8b2252"/>
+      <stop offset="50%" style="stop-color:#c0392b"/>
+      <stop offset="100%" style="stop-color:#d4a574"/>
+    </linearGradient>
+
+    <!-- Glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Seigaiha (wave) pattern -->
+    <pattern id="seigaiha" x="0" y="0" width="40" height="20" patternUnits="userSpaceOnUse">
+      <path d="M0 20 Q10 10 20 20 Q30 10 40 20" fill="none" stroke="#1a1a2e" stroke-width="0.5" opacity="0.4"/>
+      <path d="M-20 20 Q-10 10 0 20" fill="none" stroke="#1a1a2e" stroke-width="0.5" opacity="0.4"/>
+      <path d="M40 20 Q50 10 60 20" fill="none" stroke="#1a1a2e" stroke-width="0.5" opacity="0.4"/>
+    </pattern>
+    
+    <!-- Asanoha (hemp leaf) mini pattern -->
+    <pattern id="asanoha" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <line x1="12" y1="0" x2="12" y2="24" stroke="#1e1e32" stroke-width="0.3"/>
+      <line x1="0" y1="12" x2="24" y2="12" stroke="#1e1e32" stroke-width="0.3"/>
+      <line x1="0" y1="0" x2="24" y2="24" stroke="#1e1e32" stroke-width="0.3"/>
+      <line x1="24" y1="0" x2="0" y2="24" stroke="#1e1e32" stroke-width="0.3"/>
+      <line x1="12" y1="0" x2="0" y2="12" stroke="#1e1e32" stroke-width="0.3"/>
+      <line x1="12" y1="0" x2="24" y2="12" stroke="#1e1e32" stroke-width="0.3"/>
+      <line x1="0" y1="12" x2="12" y2="24" stroke="#1e1e32" stroke-width="0.3"/>
+      <line x1="24" y1="12" x2="12" y2="24" stroke="#1e1e32" stroke-width="0.3"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="900" height="200" fill="url(#bgGrad)"/>
+  <rect width="900" height="200" fill="url(#seigaiha)" opacity="0.6"/>
+  <rect width="450" height="200" x="450" fill="url(#asanoha)" opacity="0.3"/>
+  
+  <!-- Decorative circuit lines (left side) -->
+  <g stroke="#c0392b" stroke-width="0.8" opacity="0.25" fill="none">
+    <path d="M30 30 L30 80 L80 80"/>
+    <circle cx="80" cy="80" r="2" fill="#c0392b"/>
+    <path d="M50 20 L50 60 L120 60"/>
+    <circle cx="120" cy="60" r="2" fill="#c0392b"/>
+    <path d="M70 10 L70 40 L160 40"/>
+    <circle cx="160" cy="40" r="2" fill="#c0392b"/>
+    <path d="M20 120 L60 120 L60 160 L100 160"/>
+    <circle cx="100" cy="160" r="2" fill="#c0392b"/>
+  </g>
+  
+  <!-- Decorative circuit lines (right side) -->
+  <g stroke="#d4a574" stroke-width="0.8" opacity="0.2" fill="none">
+    <path d="M870 30 L870 70 L820 70"/>
+    <circle cx="820" cy="70" r="2" fill="#d4a574"/>
+    <path d="M850 15 L850 50 L780 50"/>
+    <circle cx="780" cy="50" r="2" fill="#d4a574"/>
+    <path d="M880 130 L840 130 L840 170 L800 170"/>
+    <circle cx="800" cy="170" r="2" fill="#d4a574"/>
+  </g>
+
+  <!-- Simplified Torii Gate silhouette -->
+  <g transform="translate(110, 55)" opacity="0.12" fill="#c0392b">
+    <rect x="-30" y="0" width="60" height="5" rx="1"/>
+    <rect x="-35" y="-5" width="70" height="4" rx="2"/>
+    <rect x="-25" y="5" width="5" height="45"/>
+    <rect x="20" y="5" width="5" height="45"/>
+    <rect x="-22" y="22" width="44" height="3" rx="1"/>
+  </g>
+
+  <!-- Main title -->
+  <text x="450" y="78" font-family="'Noto Sans JP', 'Hiragino Kaku Gothic ProN', sans-serif" font-size="14" fill="#d4a574" text-anchor="middle" letter-spacing="8" opacity="0.7">
+    ようこそ ─ Welcome
+  </text>
+  
+  <text x="450" y="112" font-family="'Courier New', monospace" font-size="28" fill="#e8e8e8" text-anchor="middle" letter-spacing="3" filter="url(#glow)">
+    drataro7
+  </text>
+  
+  <text x="450" y="138" font-family="'Noto Sans JP', 'Hiragino Kaku Gothic ProN', sans-serif" font-size="11" fill="#888" text-anchor="middle" letter-spacing="4">
+    Full Stack Developer ・ Systems Programmer
+  </text>
+
+  <!-- Bottom accent line -->
+  <line x1="300" y1="160" x2="600" y2="160" stroke="url(#accentGrad)" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Small decorative circles -->
+  <circle cx="300" cy="160" r="2" fill="#8b2252" opacity="0.6"/>
+  <circle cx="600" cy="160" r="2" fill="#d4a574" opacity="0.6"/>
+  
+  <!-- Subtle cherry blossom petals -->
+  <g opacity="0.08" fill="#c0392b">
+    <ellipse cx="750" cy="40" rx="4" ry="7" transform="rotate(30 750 40)"/>
+    <ellipse cx="755" cy="38" rx="4" ry="7" transform="rotate(100 755 38)"/>
+    <ellipse cx="748" cy="35" rx="4" ry="7" transform="rotate(-40 748 35)"/>
+    
+    <ellipse cx="200" cy="150" rx="3" ry="5" transform="rotate(60 200 150)"/>
+    <ellipse cx="205" cy="148" rx="3" ry="5" transform="rotate(130 205 148)"/>
+    <ellipse cx="198" cy="146" rx="3" ry="5" transform="rotate(-20 198 146)"/>
+  </g>
+
+  <!-- Version tag -->
+  <text x="870" y="190" font-family="monospace" font-size="8" fill="#444" text-anchor="end">
+    v2026.03
+  </text>
+</svg>
