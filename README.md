@@ -215,23 +215,7 @@ Driven by the pursuit of performance.
 <br>
 
 <div align="center">
-
-```
- ┌──────────────────────────────────────────────────┐
- │                                                  │
- │   ⌨  Keyboard   HHKB Professional HYBRID Type-S │
- │   🖥  Editor     Neovim / VSCode                 │
- │   🎨  Theme      Tokyo Night 🌙                  │
- │   💻  OS         Arch Linux (btw) / macOS        │
- │   📟  Terminal   Alacritty + Tmux                │
- │   ☕  Fuel       Dark Roast, French Press        │
- │                                                  │
- │          「道具を愛し、道具に愛される」             │
- │     Love your tools, and they will love you.     │
- │                                                  │
- └──────────────────────────────────────────────────┘
-```
-
+  <img src="station.svg" width="100%" alt="陣 ─ Battle Station" />
 </div>
 
 <br>
