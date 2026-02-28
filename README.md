@@ -1,213 +1,332 @@
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+  <img src="header.svg" width="100%" alt="drataro7 - Welcome to my digital space" />
 </div>
 
+<br>
+
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Welcome%20to%20My%20Digital%20Space&fontSize=35&fontColor=ffffff&animation=twinkling&fontAlignY=35" />
+  <a href="https://twitter.com/your_twitter"><img src="https://img.shields.io/badge/𝕏-1a1a2e?style=flat-square&logo=x&logoColor=d4a574" alt="Twitter" /></a>
+  <a href="https://linkedin.com/in/your_linkedin"><img src="https://img.shields.io/badge/LinkedIn-1a1a2e?style=flat-square&logo=linkedin&logoColor=d4a574" alt="LinkedIn" /></a>
+  <a href="https://your-portfolio.com"><img src="https://img.shields.io/badge/Portfolio-1a1a2e?style=flat-square&logo=googlechrome&logoColor=d4a574" alt="Portfolio" /></a>
+  <a href="mailto:your.email@gmail.com"><img src="https://img.shields.io/badge/Email-1a1a2e?style=flat-square&logo=gmail&logoColor=d4a574" alt="Email" /></a>
+  <img src="https://komarev.com/ghpvc/?username=drataro7&label=visitors&color=1a1a2e&style=flat-square&labelColor=1a1a2e" alt="Profile Views" />
 </div>
 
-<!-- Hero Section with Enhanced Typography -->
+<br>
+
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=800&height=120&lines=🚀+Full+Stack+Developer+%26+Systems+Programmer;✨+Next.js+%7C+Rust+%7C+Flutter+Enthusiast;🌟+Crafting+Modern+Web+%26+Mobile+Solutions" alt="Typing SVG" />
+  <img src="divider.svg" width="100%" />
 </div>
 
-<!-- Stylized Profile Stats Cards -->
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=user&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF&border_radius=15" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=user&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF&border_radius=15" alt="Top Languages" />
-</div>
+<!-- ━━━━━━━━━━━━━━━━ 自己紹介 ━━━━━━━━━━━━━━━━ -->
 
-<!-- Enhanced About Me Section -->
-<div align="center">
-<img src="Pixel_art_gbastyle_202511192243.gif" width="500">
+<br>
 
-## 🌟 **About Me**
+<h2 align="center">己 ─ About Me</h2>
 
-<table>
+<br>
+
+<table align="center">
 <tr>
-<td width="60%" align="left">
+<td width="55%" valign="top">
 
-```yaml
-name: "Full Stack Developer"
-located_in: "Tokyo, Japan 🗼"
-current_focus: "Web Development & Systems Programming"
-education: "Computer Science"
-
-tech_interests:
-  - Web Development 🌐
-  - Systems Programming ⚙️
-  - Mobile Development 📱
-  - Performance Optimization 🚀
-
-currently_learning:
-  - Advanced Rust Patterns
-  - Next.js 16 Features
-  - WebAssembly Integration
-  - Microservices Architecture
-
-fun_fact: "I love the performance of Rust and the DX of Next.js! 🦀⚡"
+```
+┌─────────────────────────────────────┐
+│  $ whoami                           │
+│  > drataro7                         │
+│                                     │
+│  $ cat philosophy.txt               │
+│  > 温故知新                          │
+│  > Learn from the old,              │
+│  >   discover the new.              │
+│                                     │
+│  $ echo $FOCUS                      │
+│  > Blazing-fast web apps            │
+│  > Systems-level thinking           │
+│  > Cross-platform solutions         │
+│                                     │
+│  $ uptime                           │
+│  > 3+ years Web Dev                 │
+│  > 2+ years Rust                    │
+│  > ∞  curiosity                     │
+└─────────────────────────────────────┘
 ```
 
 </td>
-<td width="40%" align="center">
+<td width="45%" valign="top">
 
-<img src="https://github.com/user-attachments/assets/flutter-developer.gif" width="200" alt="Coding GIF">
+<br>
 
-**🎯 Quick Stats**
-- 💼 3+ years in Web Development
-- 🦀 2+ years with Rust
-- 📱 Flutter experience
-- 🚀 Performance enthusiast
-- ⭐ Open source contributor
-- 🌱 Always learning
+**道 ─ My Path**
+
+Web とシステムの境界を行き来する開発者。
+パフォーマンスへの探求心が原動力。
+
+A developer bridging web and systems.
+Driven by the pursuit of performance.
+
+<br>
+
+> *「速さは正義、美しさは武器」*
+> 
+> *Speed is justice, beauty is a weapon.*
+
+<br>
+
+🦀 Rustacean
+⚡ Performance-first
+🌱 Lifelong learner
+☕ Coffee-powered
 
 </td>
 </tr>
 </table>
+
+<br>
+
+<div align="center">
+  <img src="divider.svg" width="100%" />
 </div>
 
-<!-- Interactive Tech Stack -->
-## 🚀 **Tech Arsenal**
+<!-- ━━━━━━━━━━━━━━━━ 技術 ━━━━━━━━━━━━━━━━ -->
+
+<br>
+
+<h2 align="center">技 ─ Tech Stack</h2>
+
+<br>
 
 <div align="center">
 
-### 🌐 **Web Development**
-<p>
-  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,vercel" />
-</p>
+<table>
+<tr>
+<td align="center" width="25%">
 
-### ⚙️ **Systems Programming**
-<p>
-  <img src="https://skillicons.dev/icons?i=rust,webassembly,linux,docker,kubernetes" />
-</p>
+**弐 Web**
 
-### 📱 **Mobile Development**
-<p>
-  <img src="https://skillicons.dev/icons?i=flutter,dart,androidstudio,xcode" />
-</p>
+</td>
+<td align="center" width="25%">
 
-### 🔧 **Backend & Database**
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,postgresql,redis,mongodb,supabase,firebase" />
-</p>
+**参 Systems**
 
-### 🎨 **Design & Tools**
-<p>
-  <img src="https://skillicons.dev/icons?i=figma,vscode,git,github,postman,graphql" />
-</p>
+</td>
+<td align="center" width="25%">
 
-### 💻 **Languages & More**
-<p>
-  <img src="https://skillicons.dev/icons?i=rust,ts,js,dart,python,html,css,wasm" />
-</p>
+**肆 Mobile**
+
+</td>
+<td align="center" width="25%">
+
+**伍 Backend**
+
+</td>
+</tr>
+<tr>
+<td align="center" valign="top">
+
+![Next.js](https://img.shields.io/badge/Next.js-0a0a0f?style=flat-square&logo=next.js&logoColor=c0392b)
+![React](https://img.shields.io/badge/React-0a0a0f?style=flat-square&logo=react&logoColor=c0392b)
+![TypeScript](https://img.shields.io/badge/TypeScript-0a0a0f?style=flat-square&logo=typescript&logoColor=c0392b)
+![Tailwind](https://img.shields.io/badge/Tailwind-0a0a0f?style=flat-square&logo=tailwindcss&logoColor=c0392b)
+
+</td>
+<td align="center" valign="top">
+
+![Rust](https://img.shields.io/badge/Rust-0a0a0f?style=flat-square&logo=rust&logoColor=d4a574)
+![Wasm](https://img.shields.io/badge/Wasm-0a0a0f?style=flat-square&logo=webassembly&logoColor=d4a574)
+![Linux](https://img.shields.io/badge/Linux-0a0a0f?style=flat-square&logo=linux&logoColor=d4a574)
+![Docker](https://img.shields.io/badge/Docker-0a0a0f?style=flat-square&logo=docker&logoColor=d4a574)
+
+</td>
+<td align="center" valign="top">
+
+![Flutter](https://img.shields.io/badge/Flutter-0a0a0f?style=flat-square&logo=flutter&logoColor=8b2252)
+![Dart](https://img.shields.io/badge/Dart-0a0a0f?style=flat-square&logo=dart&logoColor=8b2252)
+
+</td>
+<td align="center" valign="top">
+
+![Node.js](https://img.shields.io/badge/Node.js-0a0a0f?style=flat-square&logo=node.js&logoColor=888888)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0a0a0f?style=flat-square&logo=postgresql&logoColor=888888)
+![Redis](https://img.shields.io/badge/Redis-0a0a0f?style=flat-square&logo=redis&logoColor=888888)
+![Supabase](https://img.shields.io/badge/Supabase-0a0a0f?style=flat-square&logo=supabase&logoColor=888888)
+
+</td>
+</tr>
+</table>
 
 </div>
 
-<!-- Enhanced GitHub Activity -->
-## 📊 **GitHub Analytics Dashboard**
+<br>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=user&theme=tokyonight&hide_border=true&border_radius=15&background=0D1117&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF" alt="GitHub Streak" />
+  <img src="divider.svg" width="100%" />
 </div>
+
+<!-- ━━━━━━━━━━━━━━━━ 修行目録 ━━━━━━━━━━━━━━━━ -->
+
+<br>
+
+<h2 align="center">修 ─ 2026 Quest Log</h2>
+
+<br>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=user&custom_title=📈%20Contribution%20Graph&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF&area=true&hide_border=true&radius=16" width="100%" alt="Activity Graph" />
+
+```
+ ╔══════════════════════════════════════════════╗
+ ║              修 行 目 録                      ║
+ ║            ── Training Log ──                 ║
+ ╠══════════════════════════════════════════════╣
+ ║                                              ║
+ ║  [■■■■■■■■■■] 完  Rust memory mastery       ║
+ ║  [■■■■■□□□□□] 修  Flutter cross-platform app ║
+ ║  [■■■□□□□□□□] 修  WebAssembly deep dive      ║
+ ║  [■□□□□□□□□□] 未  Custom mechanical keyboard ║
+ ║                                              ║
+ ║  完 = Complete  修 = In Progress  未 = Todo   ║
+ ╚══════════════════════════════════════════════╝
+```
+
 </div>
 
-<!-- Achievement Section -->
-## 🏆 **Achievements & Trophies**
+<br>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=user&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=6&title=Commit,Commits,PullRequest,Repositories,Stars,Followers" />
+  <img src="divider.svg" width="100%" />
 </div>
 
-<!-- Featured Projects Showcase -->
-## 🌟 **Featured Projects**
+<!-- ━━━━━━━━━━━━━━━━ GitHub Stats ━━━━━━━━━━━━━━━━ -->
+
+<br>
+
+<h2 align="center">績 ─ GitHub Analytics</h2>
+
+<br>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=drataro7&show_icons=true&hide_border=true&bg_color=0a0a0f&title_color=c0392b&icon_color=d4a574&text_color=888888&border_radius=8&ring_color=c0392b" height="165" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=drataro7&layout=compact&hide_border=true&bg_color=0a0a0f&title_color=c0392b&text_color=888888&border_radius=8" height="165" alt="Top Languages" />
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=drataro7&hide_border=true&border_radius=8&background=0a0a0f&ring=c0392b&fire=d4a574&currStreakLabel=c0392b&sideLabels=888888&currStreakNum=d4a574&dates=555555" alt="GitHub Streak" />
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=drataro7&custom_title=Contribution%20Graph&bg_color=0a0a0f&color=888888&line=c0392b&point=d4a574&area=true&hide_border=true&radius=8&area_color=1a1a2e" width="95%" alt="Activity Graph" />
+</div>
+
+<br>
+
+<div align="center">
+  <img src="divider.svg" width="100%" />
+</div>
+
+<!-- ━━━━━━━━━━━━━━━━ Projects ━━━━━━━━━━━━━━━━ -->
+
+<br>
+
+<h2 align="center">作 ─ Featured Works</h2>
+
+<br>
 
 <div align="center">
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🌐 [Project Name 1](https://github.com/user/project1)
-**Next.js Full-Stack App**
-- ⚡ Server-side rendering
-- 🔐 Authentication system
-- 📊 Real-time analytics
-- 🎨 Modern UI/UX
+<h3 align="center">🌐 Project Name 1</h3>
+<p align="center"><sub>Next.js Full-Stack Application</sub></p>
 
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Tailwind](https://img.shields.io/badge/-Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+<p align="center">
+Server-side rendering ・ Auth system<br>
+Real-time analytics ・ Modern UI/UX
+</p>
+
+<p align="center">
+  <a href="https://github.com/drataro7/project1">
+    <img src="https://img.shields.io/badge/Repository-0a0a0f?style=flat-square&logo=github&logoColor=c0392b" />
+  </a>
+</p>
+
+![Next.js](https://img.shields.io/badge/-Next.js-0a0a0f?style=flat-square&logo=next.js&logoColor=c0392b)
+![TypeScript](https://img.shields.io/badge/-TypeScript-0a0a0f?style=flat-square&logo=typescript&logoColor=c0392b)
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🦀 [Project Name 2](https://github.com/user/project2)
-**Rust CLI Tool**
-- ⚡ High performance
-- 🔧 System integration
-- 📦 Cross-platform
-- 🚀 Zero-cost abstractions
+<h3 align="center">🦀 Project Name 2</h3>
+<p align="center"><sub>Rust CLI Tool</sub></p>
 
-![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![WebAssembly](https://img.shields.io/badge/-WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+<p align="center">
+High performance ・ System integration<br>
+Cross-platform ・ Zero-cost abstractions
+</p>
+
+<p align="center">
+  <a href="https://github.com/drataro7/project2">
+    <img src="https://img.shields.io/badge/Repository-0a0a0f?style=flat-square&logo=github&logoColor=d4a574" />
+  </a>
+</p>
+
+![Rust](https://img.shields.io/badge/-Rust-0a0a0f?style=flat-square&logo=rust&logoColor=d4a574)
+![Wasm](https://img.shields.io/badge/-WebAssembly-0a0a0f?style=flat-square&logo=webassembly&logoColor=d4a574)
 
 </td>
 </tr>
 </table>
 </div>
 
-<!-- Contact & Social -->
-## 🤝 **Let's Connect!**
+<br>
+
+<div align="center">
+  <img src="divider.svg" width="100%" />
+</div>
+
+<!-- ━━━━━━━━━━━━━━━━ Setup ━━━━━━━━━━━━━━━━ -->
+
+<br>
+
+<details>
+<summary align="center"><b>⚙️ 陣 ─ Battle Station</b></summary>
+
+<br>
 
 <div align="center">
 
-[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/your_twitter)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your_linkedin)
-[![Portfolio](https://img.shields.io/badge/-Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://your-portfolio.com)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@gmail.com)
+| 項目 | 装備 |
+|:---:|:---|
+| **OS** | Arch Linux (btw) / macOS |
+| **Editor** | Neovim / VSCode |
+| **Theme** | Tokyo Night 🌙 |
+| **Terminal** | Alacritty + Tmux |
+| **Keyboard** | HHKB Professional HYBRID Type-S |
+| **Fuel** | Dark Roast, French Press ☕ |
 
 </div>
 
-<!-- Inspirational Quote -->
-## 💭 **Daily Inspiration**
+<br>
+</details>
 
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=Code%20is%20poetry%20written%20in%20logic&author=Anonymous%20Developer" />
-</div>
+<br>
 
-<!-- Support Section -->
-## ☕ **Support My Work**
+<!-- ━━━━━━━━━━━━━━━━ Support ━━━━━━━━━━━━━━━━ -->
 
 <div align="center">
 
-If you like my projects, consider buying me a coffee! ☕
+If you find my work useful ─ 応援よろしくお願いします ☕
 
-[![Ko-Fi](https://img.shields.io/badge/-Buy_Me_A_Coffee-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/your_kofi)
-[![PayPal](https://img.shields.io/badge/-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/your_paypal)
+[![Ko-Fi](https://img.shields.io/badge/Buy_Me_A_Coffee-1a1a2e?style=flat-square&logo=ko-fi&logoColor=d4a574)](https://ko-fi.com/your_kofi)
 
 </div>
 
-<!-- Visitor Counter -->
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=user&label=Profile%20Views&color=00D9FF&style=flat-square" alt="Profile Views" />
-</div>
-
-<!-- Enhanced Footer -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" />
-</div>
+<br>
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
-  
-  ### ⭐ **Thanks for visiting!** ⭐
-  
-  **Made with ❤️ and lots of ☕ by [user](https://github.com/user)**
-  
-  *"Rust for performance, Next.js for experience, Flutter for everywhere! 🦀⚡🦋"*
-  
-  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400">
+  <img src="footer.svg" width="100%" alt="一期一会 - Treasure every encounter" />
 </div>
