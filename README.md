@@ -30,31 +30,9 @@
 
 <table align="center">
 <tr>
-<td width="50%" valign="top">
+<td width="50%" align="center" valign="top">
 
-```
-┌───────────────────────────────────┐
-│                                   │
-│  $ whoami                         │
-│  > drataro7                       │
-│                                   │
-│  $ cat philosophy.txt             │
-│  > 温故知新                        │
-│  > Learn from the old,            │
-│  >   discover the new.            │
-│                                   │
-│  $ echo $FOCUS                    │
-│  > Blazing-fast web apps          │
-│  > Systems-level thinking         │
-│  > Cross-platform solutions       │
-│                                   │
-│  $ uptime                         │
-│  > 3+ years Web Dev               │
-│  > 2+ years Rust                  │
-│  > ∞  curiosity                   │
-│                                   │
-└───────────────────────────────────┘
-```
+<img src="terminal.svg" width="100%" alt="Terminal - drataro7@dev" />
 
 </td>
 <td width="50%" valign="top">
