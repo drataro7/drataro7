@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 60" width="900" height="60">
+  <defs>
+    <linearGradient id="techBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="50%" style="stop-color:#12121f"/>
+      <stop offset="100%" style="stop-color:#0a0a0f"/>
+    </linearGradient>
+    <linearGradient id="techAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8b2252"/>
+      <stop offset="50%" style="stop-color:#c0392b"/>
+      <stop offset="100%" style="stop-color:#d4a574"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="60" fill="url(#techBg)"/>
+  
+  <!-- Decorative corner brackets -->
+  <g stroke="#c0392b" stroke-width="1.2" fill="none" opacity="0.5">
+    <!-- Top-left -->
+    <path d="M20 8 L20 4 L40 4"/>
+    <path d="M20 8 L24 8"/>
+    <!-- Top-right -->
+    <path d="M880 8 L880 4 L860 4"/>
+    <path d="M880 8 L876 8"/>
+    <!-- Bottom-left -->
+    <path d="M20 52 L20 56 L40 56"/>
+    <path d="M20 52 L24 52"/>
+    <!-- Bottom-right -->
+    <path d="M880 52 L880 56 L860 56"/>
+    <path d="M880 52 L876 52"/>
+  </g>
+  
+  <!-- Circuit dots decoration -->
+  <g fill="#c0392b" opacity="0.2">
+    <circle cx="60" cy="30" r="1.5"/>
+    <circle cx="80" cy="30" r="1"/>
+    <circle cx="95" cy="30" r="1.5"/>
+    <line x1="60" y1="30" x2="95" y2="30" stroke="#c0392b" stroke-width="0.5"/>
+    
+    <circle cx="805" cy="30" r="1.5"/>
+    <circle cx="820" cy="30" r="1"/>
+    <circle cx="840" cy="30" r="1.5"/>
+    <line x1="805" y1="30" x2="840" y2="30" stroke="#c0392b" stroke-width="0.5"/>
+  </g>
+  
+  <!-- Asanoha mini accents -->
+  <g stroke="#1e1e32" stroke-width="0.4" fill="none" opacity="0.4">
+    <path d="M140 15 L150 30 L140 45"/>
+    <path d="M145 15 L145 45"/>
+    <path d="M760 15 L750 30 L760 45"/>
+    <path d="M755 15 L755 45"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="450" y="25" font-family="'Noto Sans JP', 'Hiragino Kaku Gothic ProN', sans-serif" font-size="13" fill="#d4a574" text-anchor="middle" letter-spacing="6" opacity="0.8">
+    技 ─ Tech Stack
+  </text>
+  <text x="450" y="43" font-family="monospace" font-size="9" fill="#555" text-anchor="middle" letter-spacing="2">
+    壱 弐 参 肆 伍 陸 漆
+  </text>
+  
+  <!-- Bottom accent -->
+  <line x1="350" y1="54" x2="550" y2="54" stroke="url(#techAccent)" stroke-width="0.5" opacity="0.4"/>
+</svg>

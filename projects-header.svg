@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 60" width="900" height="60">
+  <defs>
+    <linearGradient id="prBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="50%" style="stop-color:#12121f"/>
+      <stop offset="100%" style="stop-color:#0a0a0f"/>
+    </linearGradient>
+    <linearGradient id="prAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8b2252"/>
+      <stop offset="50%" style="stop-color:#c0392b"/>
+      <stop offset="100%" style="stop-color:#d4a574"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="60" fill="url(#prBg)"/>
+  
+  <g stroke="#d4a574" stroke-width="1.2" fill="none" opacity="0.5">
+    <path d="M20 8 L20 4 L40 4"/>
+    <path d="M880 8 L880 4 L860 4"/>
+    <path d="M20 52 L20 56 L40 56"/>
+    <path d="M880 52 L880 56 L860 56"/>
+  </g>
+  
+  <!-- Scroll/document icon decoration -->
+  <g stroke="#d4a574" stroke-width="0.6" fill="none" opacity="0.2">
+    <rect x="105" y="18" width="20" height="26" rx="2"/>
+    <line x1="110" y1="24" x2="120" y2="24"/>
+    <line x1="110" y1="29" x2="120" y2="29"/>
+    <line x1="110" y1="34" x2="117" y2="34"/>
+    
+    <rect x="775" y="18" width="20" height="26" rx="2"/>
+    <line x1="780" y1="24" x2="790" y2="24"/>
+    <line x1="780" y1="29" x2="790" y2="29"/>
+    <line x1="780" y1="34" x2="787" y2="34"/>
+  </g>
+  
+  <text x="450" y="25" font-family="'Noto Sans JP', 'Hiragino Kaku Gothic ProN', sans-serif" font-size="13" fill="#d4a574" text-anchor="middle" letter-spacing="6" opacity="0.8">
+    作 ─ Featured Works
+  </text>
+  <text x="450" y="43" font-family="monospace" font-size="9" fill="#555" text-anchor="middle" letter-spacing="1">
+    作品集 ─ Portfolio
+  </text>
+  
+  <line x1="350" y1="54" x2="550" y2="54" stroke="url(#prAccent)" stroke-width="0.5" opacity="0.4"/>
+</svg>
