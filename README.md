@@ -32,7 +32,7 @@
 <tr>
 <td width="50%" align="center" valign="top">
 
-<img src="terminal.svg" width="100%" alt="Terminal - drataro7@dev" />
+<img src="term.svg" width="100%" alt="Terminal - drataro7@dev" />
 
 </td>
 <td width="50%" valign="top">
